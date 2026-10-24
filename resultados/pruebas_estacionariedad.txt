@@ -1,0 +1,5 @@
+Serie: variación mensual del IPC de energéticos (enero 2010 - septiembre 2026)
+ADF: estadístico = -4.640506; valor p = 0.000108695; rezagos = 3
+KPSS: estadístico = 0.255409; valor p tabulado = 0.1; rezagos = 7
+ADF rechaza la raíz unitaria; KPSS no rechaza estacionariedad.
+Nota: el p-valor de KPSS puede superar el límite mostrado por la tabla.

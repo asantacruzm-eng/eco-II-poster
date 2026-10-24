@@ -1,0 +1,20 @@
+VALIDACIÓN DEL MODELO ARMA(1,1) - IPC DE ENERGÉTICOS
+Serie: variación mensual del IPC, enero de 2010 a septiembre de 2026
+Residuos utilizados: 199
+
+Ljung-Box (corrección por p+q=2):
+        estadistico_Q   valor_p   decision_5pct
+rezago                                         
+6            3.845252  0.427354  No rechazar H0
+12          10.594297  0.389986  No rechazar H0
+18          20.216626  0.210622  No rechazar H0
+24          31.731797  0.082085  No rechazar H0
+
+ARCH-LM: estadístico = 4.8432; p = 0.963013
+Jarque-Bera: estadístico = 36.9656; p = 0.000000009
+
+No se rechaza H0 de ausencia de autocorrelación hasta el rezago 24.
+No se detectan efectos ARCH al nivel del 5 %.
+Se rechaza la hipótesis de normalidad de los residuos.
+
+Advertencia: el rechazo de normalidad exige prudencia con los intervalos de pronóstico bajo supuestos gaussianos.
